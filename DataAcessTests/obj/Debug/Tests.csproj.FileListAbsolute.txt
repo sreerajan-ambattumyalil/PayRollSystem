@@ -1,0 +1,13 @@
+C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\obj\Debug\DataAcessTests.dll
+C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\DataAcessTests.dll
+C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\DataAcessTests.pdb
+C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\DataAccess.dll
+C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\nunit.framework.dll
+C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\PayRollSystem.dll
+C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\EntityFramework.dll
+C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\DataAccess.pdb
+C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\PayRollSystem.pdb
+C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\nunit.framework.xml
+C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\EntityFramework.xml
+C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\obj\Debug\DataAcessTests.pdb

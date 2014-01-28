@@ -1,0 +1,11 @@
+﻿@model PayRollSystem.Models.EmployeeModel
+@{
+    ViewBag.Title = "Register New Employee";
+}
+<div style="width: 10%;border:2px solid;border-radius:10px; min-height:306px;float: left;margin-right: 20px;">
+    @Html.Partial("ExistingEmployees")
+</div>
+
+<div style="width: 40%; border: 2px solid; border-radius: 10px;float:left;">
+    @Html.Partial("EmployeeForm")
+</div>

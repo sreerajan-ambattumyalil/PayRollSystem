@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "ListOfEmployees";
+}
+<h2>Employees</h2>
+
+<table>
+    <tbody>
+        @foreach (var employee in Model.ExistingEmployees)
+        {
+            <tr style="padding-left: 10px; padding-right: 10px; border: 2px solid;">
+                <td style="padding-left: 10px; padding-right: 10px;">
+                    <a id="display_@employee.Key" href="/Employee/UpdateEmployee?employeeCode=@employee.Value">@employee.Key</a>
+
+                </td>
+            </tr>   
+        }
+    </tbody>
+</table>

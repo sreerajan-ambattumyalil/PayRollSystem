@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title</title>
+    </head>
+    <body style="font-family: verdana; background-color: #efeeef">
+        <header>
+            <div>
+                <div style="background-color: white;color: red;height: 50px;margin-bottom: 10px;">
+                    <p>@Html.ActionLink("Home", "RegisterNewEmployee", "Employee")</p>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            @RenderSection("featured", false)
+            <section>
+                @RenderBody()
+            </section>
+        </div>
+    </body>
+</html>

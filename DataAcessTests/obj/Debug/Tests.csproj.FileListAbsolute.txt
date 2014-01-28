@@ -3,7 +3,6 @@ C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\
 C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\DataAcessTests.dll
 C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\DataAcessTests.pdb
 C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\DataAccess.dll
-C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\nunit.framework.dll
 C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\PayRollSystem.dll
 C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\EntityFramework.dll
 C:\Users\sreeraja.CORPORATE\Documents\Visual Studio 2012\Projects\PayRollSystem\DataAcessTests\bin\Debug\DataAccess.pdb

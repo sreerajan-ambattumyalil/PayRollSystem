@@ -188,7 +188,6 @@
     <Compile Include="Models\ErrorCodeConstants.cs" />
     <Compile Include="Models\Field.cs" />
     <Compile Include="Models\UserProfile.cs" />
-    <Compile Include="Models\UsersContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

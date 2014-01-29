@@ -5,9 +5,9 @@
     @Html.AntiForgeryToken()
     @Html.ValidationSummary()
     <h2>@ViewBag.Title</h2>
-    <table id="customerForm_customer-fields" style="padding-left: 20px; padding-top: 20px; padding-bottom: 20px; padding-right: 20px;">
+    <table id="customerForm_customer-fields" class="employee_form">
         <tbody>
-            <tr style="padding-left: 10px; padding-right: 10px; display: none">
+            <tr class="employee_form_field_wrapper hideme">
                 <td>
                     <label>Employee Id</label>
                 </td>
@@ -15,7 +15,7 @@
                     @Html.TextBoxFor(m => m.Employee.EmployeeId.Value, new { @id = "EmployeeId", @maxlength = 6 })
                 </td>
             </tr>
-            <tr style="padding-left: 10px; padding-right: 10px;">
+            <tr class="employee_form_field_wrapper" >
                 <td>
                     <label>Employee Code</label>
                 </td>
@@ -23,11 +23,11 @@
                     @Html.TextBoxFor(m => m.Employee.EmployeeCode.Value, new { @id = "EmployeeCode", @maxlength = 6 })
                     @if (Model.Employee != null && !string.IsNullOrEmpty(Model.Employee.EmployeeCode.Error))
                     {
-                        <span style="color: red; font-style: italic;">@Model.Employee.EmployeeCode.Error</span>
+                        <span class="error">@Model.Employee.EmployeeCode.Error</span>
                     }
                 </td>
             </tr>
-            <tr style="padding-left: 10px; padding-right: 10px;">
+            <tr class="employee_form_field_wrapper">
                 <td>
                     <label>Employee Name</label>
                 </td>
@@ -35,11 +35,11 @@
                     @Html.TextBoxFor(m => m.Employee.EmployeeName.Value, new { @id = "EmployeeName", @maxlength = 70 })
                     @if (Model.Employee != null && !string.IsNullOrEmpty(Model.Employee.EmployeeName.Error))
                     {
-                        <span style="color: red; font-style: italic;">@Model.Employee.EmployeeName.Error</span>
+                        <span class="error">@Model.Employee.EmployeeName.Error</span>
                     }
                 </td>
             </tr>
-            <tr style="padding-left: 10px; padding-right: 10px;">
+            <tr class="employee_form_field_wrapper">
                 <td>
                     <label>Address</label>
                 </td>
@@ -47,11 +47,11 @@
                     @Html.TextAreaFor(m => m.Employee.Address.Value, new { @id = "Address", @maxlength = 200 })
                     @if (Model.Employee != null && !string.IsNullOrEmpty(Model.Employee.Address.Error))
                     {
-                        <span style="color: red; font-style: italic;">@Model.Employee.Address.Error</span>
+                        <span class="error">@Model.Employee.Address.Error</span>
                     }
                 </td>
             </tr>
-            <tr style="padding-left: 10px; padding-right: 10px;">
+            <tr class="employee_form_field_wrapper">
                 <td>
                     <label>Post Code</label>
                 </td>
@@ -59,11 +59,11 @@
                     @Html.TextBoxFor(m => m.Employee.PostCode.Value, new { @id = "PostCode", @maxlength = 10 })
                     @if (Model.Employee != null && !string.IsNullOrEmpty(Model.Employee.PostCode.Error))
                     {
-                        <span style="color: red; font-style: italic;">@Model.Employee.PostCode.Error</span>
+                        <span class="error">@Model.Employee.PostCode.Error</span>
                     }
                 </td>
             </tr>
-            <tr style="padding-left: 10px; padding-right: 10px;">
+            <tr class="employee_form_field_wrapper">
                 <td>
                     <label>Salary</label>
                 </td>
@@ -71,11 +71,11 @@
                     @Html.TextBoxFor(m => m.Employee.Salary.Value, new { @id = "Salary",@maxlength = 15 })
                     @if (Model.Employee != null && !string.IsNullOrEmpty(Model.Employee.Salary.Error))
                     {
-                        <span style="color: red; font-style: italic;">@Model.Employee.Salary.Error</span>
+                        <span class="error">@Model.Employee.Salary.Error</span>
                     }
                 </td>
             </tr>
-            <tr style="padding-left: 10px; padding-right: 10px;">
+            <tr class="employee_form_field_wrapper">
                 <td>
                 </td>
                 <td>

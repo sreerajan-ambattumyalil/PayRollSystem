@@ -3,11 +3,12 @@
     <head>
         <meta charset="utf-8" />
         <title>@ViewBag.Title</title>
+        @Styles.Render("~/Content/PayRoll.css")
     </head>
-    <body style="font-family: verdana; background-color: #efeeef">
+    <body>
         <header>
             <div>
-                <div style="background-color: white;color: red;height: 50px;margin-bottom: 10px;">
+                <div class="tabbed_menu">
                     <p>@Html.ActionLink("Home", "RegisterNewEmployee", "Employee")</p>
                 </div>
             </div>
